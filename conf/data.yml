@@ -1,0 +1,60 @@
+Assessment(a1):
+  weight: 75
+  chest: 36
+  thigh: 23
+  upperArm: 45
+  waist: 32
+  hips: 20
+
+Assessment(a2):
+  weight: 70
+  chest: 30
+  thigh: 18
+  upperArm: 21
+  waist: 33
+  hips: 10
+
+Assessment(a3):
+  weight: 110
+  chest: 40
+  thigh: 25
+  upperArm: 25
+  waist: 55
+  hips: 55
+
+Assessment(a4):
+  weight: 120
+  chest: 50
+  thigh: 30
+  upperArm: 30
+  waist: 60
+  hips: 60
+
+Member(m1):
+  name: John Cagney
+  gender: male
+  email: john@cagney.com
+  password: secret
+  address: Ballitore
+  height: 1.8
+  starting weight: 80
+  assessmentList:
+  - a1
+  - a2
+
+Member(m2):
+  name: Fats Domino
+  gender: male
+  email: fats@domino.com
+  password: secret
+  address: New Orleans
+  height: 1.8
+  starting weight: 100
+  assessmentList:
+    - a3
+    - a4
+
+Trainer(t1):
+   name: trainer
+   email: trainer@trainer.com
+   password: secret
