@@ -43,11 +43,11 @@ Member(m1):
   - a2
 
 Member(m2):
-  name: Fats Domino
+  name: Winne the Pooh
   gender: male
-  email: fats@domino.com
+  email: winne@pooh.com
   password: secret
-  address: New Orleans
+  address: The Big Tree
   height: 1.8
   starting weight: 100
   assessmentList:
