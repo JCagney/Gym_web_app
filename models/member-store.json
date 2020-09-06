@@ -1,0 +1,36 @@
+{
+  "members": [
+    {
+      "name": "Brie Cagney",
+      "gender": "felmale",
+      "email": "brie@cagney.com",
+      "password": "secret",
+      "address": "484 Cockpit Lane",
+      "height": "1.6",
+      "startingWeight": "70",
+      "id": "7c4e27c0-ef8f-11ea-9ebd-73e376169e46"
+    },
+    {
+      "name": "Homer J Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "address": "The Spanish Front ",
+      "gender": "male",
+      "height": 1.9,
+      "startingWeight": 100,
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "assessments": 3
+    },
+    {
+      "name": "John Cagney",
+      "gender": "male",
+      "email": "john@cagney.com",
+      "password": "secret",
+      "address": "484 Cockpit Lane, Ballitore",
+      "height": "1.9",
+      "startingWeight": "70",
+      "id": "7297c0e0-e87f-11ea-b202-f59f2c993159",
+      "assessments": 2
+    }
+  ]
+}

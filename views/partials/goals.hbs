@@ -1,0 +1,45 @@
+<section class="ui raised segment">
+  <header class="ui header">
+    Current Goal
+  </header>
+  <table class="ui fixed table">
+    <thead>
+    <tr>
+      <th>Date</th>
+      <th>Weight</th>
+      <th>Set By</th>  
+      <th>Status</th> 
+    </tr>
+    </thead>
+    <tbody>
+    <div class="ui bulleted list">
+      <tr>
+        <td> {{goal.date}} </td>
+        <td> {{goal.weight}} </td>
+        <td> {{goal.setter}} </td>
+        <td> {{goal.status}} </td>
+      
+    </div>
+    </tbody>
+  </table>
+
+
+  <header class="ui header">
+    New Goal
+  </header>
+  <form class="ui form" action="/dashboard/addGoal" method="POST">
+  <div class="two fields">
+  <div class="field">
+  <label>Goal Date</label>
+  <input placeholder="Date" type="date" name="date">
+</div>
+  <div class="field">
+    <label>Goal Weight</label>
+    <input placeholder="Weight" type="text" name="weight">
+  </div> 
+  </div>
+  <button class="ui blue submit button">Add Goal</button>
+</form>
+  
+
+</section>

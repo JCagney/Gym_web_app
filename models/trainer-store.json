@@ -1,0 +1,9 @@
+{
+  "trainers": [
+    {
+      "name": "Mick Cagney",
+      "email": "mick@cagney.com",
+      "password": "secret"
+    }
+  ]
+}
